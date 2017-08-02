@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SABSSM V&#174;</title>
+
+    <!-- CSS -->
+    
+    @Styles.Render("~/Content/themes/login/assets/bootstrap/css/bootstrap.min")
+    @Styles.Render("~/Content/themes/login/assets/font-awesome/css/font-awesome.min")
+    @Styles.Render("~/Content/themes/login/assets/css/form-elements")
+    @Styles.Render("~/Content/themes/login/assets/css/style")
+
+    <link rel="stylesheet" href="@Url.Content("~/Content/themes/login/assets/bootstrap/css/bootstrap.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Content/themes/login/assets/font-awesome/css/font-awesome.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Content/themes/login/assets/css/form-elements.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Content/themes/login/assets/css/style.css")">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="@Url.Content("~/Content/themes/login/assets/ico/hsrclogo.ico")">
+</head>
+
+<body>
+
+    <!-- Top content -->
+    <div class="top-content">
+
+        <div class="inner-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 form-box">
+                        <div class="form-top">
+                            <div class="form-top-left">
+                                <span class="text-primary3">HSRC</span><span class="text-primary">DATA</span><span class="text-primary2">&#174;</span>
+                                <p>Login with your username and password:</p>
+                            </div>
+                            <div class="form-top-right">
+                                <img src="@Url.Content("~/Content/themes/login/assets/img/logo.png")" alt="Smiley face" height="70" width="70">
+                            </div>
+                        </div>
+                        @RenderBody()
+
+
+                    </div>
+                </div>
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="@Url.Content("~/Content/themes/login/assets/js/jquery-1.11.1.min.js")"></script>
+    <script src="@Url.Content("~/Content/themes/login/assets/bootstrap/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Content/themes/login/assets/js/jquery.backstretch.min.js")"></script>
+    <script src="@Url.Content("~/Content/themes/login/assets/js/scripts.js")"></script>
+
+    <!--[if lt IE 10]>
+        <script src="assets/js/placeholder.js"></script>
+    <![endif]-->
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>

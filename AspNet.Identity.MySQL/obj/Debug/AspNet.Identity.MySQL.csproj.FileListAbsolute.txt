@@ -1,0 +1,9 @@
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AspNet.Identity.MySQL\bin\Debug\AspNet.Identity.MySQL.dll.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AspNet.Identity.MySQL\bin\Debug\AspNet.Identity.MySQL.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AspNet.Identity.MySQL\bin\Debug\AspNet.Identity.MySQL.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AspNet.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AspNet.Identity.MySQL\bin\Debug\MySql.Data.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AspNet.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AspNet.Identity.MySQL\obj\Debug\AspNet.Identity.MySQL.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AspNet.Identity.MySQL\obj\Debug\AspNet.Identity.MySQL.dll
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AspNet.Identity.MySQL\obj\Debug\AspNet.Identity.MySQL.pdb
